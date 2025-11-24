@@ -1,4 +1,4 @@
-all: calculator.wasm add.wasm sub.wasm mul.wasm div.wasm
+all: calculator.wasm
 
 %.wasm: %.wat
 	wat2wasm $<
